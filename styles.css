@@ -1,0 +1,84 @@
+/* BODY OF WEBSITE */
+body{
+    background-color: black;
+    margin: 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+  }
+
+
+/* WRAPPER FOR DIVS */
+.image-box{
+  width: 430px;
+  height: 600px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 25px;
+  position: relative;
+  display: flex;
+  flex-flow: column;
+}
+
+  
+/* POST HEADER BOXES */
+.image-box-header{
+  display: flex;
+  height: 60px;
+  background-color: white;
+  justify-content: flex-end;
+}
+.header-ellipsis{
+  margin-left: auto;
+  font-size: 30px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 10px;
+}
+.header-words > p{
+  margin: 0;
+  text-align: left;
+}
+.header-words{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.headericon{
+  font-size: 30px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
+
+
+  /* POST FOOTER BOXES */
+.image-box-footer{
+    display: flex;
+    flex-flow: column;
+    height: 200px;
+    background-color: white;
+    text-align: left;
+  }
+.footer{
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.footer:last-child{
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.icons{
+  display: flex;
+  font-size: 30px;
+}
+.fa-bookmark{
+ margin-left: auto;
+ margin-right: 10px;
+}
+.fa-regular:nth-child(-n+3){
+  margin-right: 5px;
+}
+.message > p {
+  margin-top: 0;
+}
